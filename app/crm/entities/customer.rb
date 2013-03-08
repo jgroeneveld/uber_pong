@@ -26,10 +26,6 @@ module CRM
       find_contact_by_role(:sales)
     end
 
-
-
-    private
-
     def find_contact_by_role(role)
       @contacts.each { |c|
         return c  if c.role == role

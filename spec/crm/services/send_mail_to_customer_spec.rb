@@ -2,13 +2,24 @@ require_relative '../../spec_helper'
 
 describe CRM::SendMailToCustomer do
   it "should send a mail to the technical contact" do
-    technical = CRM::Person.new(role: :technical, email: 'test@test.de')
+    technical = CRM::Person.new(role: :technical, email: 'technical@test.de')
     customer = CRM::Customer.new
     customer.contacts << technical
 
     mailer = double('mailer')
-    mailer.should_receive(:send).with(technical.email)
+    mailer.should_receive(:send_mail).with(technical.email)
 
-    CRM::SendMailToCustomer.run!(customer: customer, mailer: mailer)
+    CRM::SendMailToCustomer.run!(customer: customer, role: :technical, mailer: mailer)
+  end
+
+  it "should send a mail to the sales contact" do
+    sales = CRM::Person.new(role: :sales, email: 'sales@test.de')
+    customer = CRM::Customer.new
+    customer.contacts << sales
+
+    mailer = double('mailer')
+    mailer.should_receive(:send_mail).with(sales.email)
+
+    CRM::SendMailToCustomer.run!(customer: customer, role: :sales, mailer: mailer)
   end
 end

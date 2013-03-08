@@ -3,11 +3,12 @@ module CRM
     required do
       object :customer
       object :mailer
+      object :role
     end
 
     def execute
-      to = customer.technical_contact.email
-      mailer.send(to)
+      to = customer.find_contact_by_role(role).email
+      mailer.send_mail(to)
     end
   end
 end
