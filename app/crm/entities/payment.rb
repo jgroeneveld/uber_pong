@@ -1,11 +1,7 @@
 module CRM
 
-  class Payment
+  class Payment < Core::Entity
     attr_accessor :amount
-
-    def initialize(args={})
-      self.amount = args[:amount]
-    end
   end
 
 end

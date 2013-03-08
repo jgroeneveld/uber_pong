@@ -1,5 +1,5 @@
 module CRM
-  class Customer
+  class Customer < Core::Entity
     attr_accessor :name
     attr_accessor :address
     attr_accessor :rating
@@ -7,7 +7,7 @@ module CRM
     attr_accessor :contacts
 
     def initialize(args={})
-      @name = args[:name]
+      super
 
       @rating = 0
       @payments = []

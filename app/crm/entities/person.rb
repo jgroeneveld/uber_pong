@@ -1,15 +1,8 @@
 module CRM
-  class Person
+  class Person < Core::Entity
     ROLES = [ :technical, :sales ]
 
     attr_accessor :first_name, :last_name, :role, :email
-
-    def initialize(args={})
-      self.first_name = args[:first_name]
-      self.last_name = args[:last_name]
-      self.role = args[:role]
-      self.email = args[:email]
-    end
 
     def role=(r)
       r = r.to_sym
