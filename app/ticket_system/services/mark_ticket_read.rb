@@ -1,7 +1,7 @@
 module TicketSystem
   class MarkTicketRead < Mutations::Command
     required do
-      dynamic :ticket
+      object :ticket
     end
 
     def execute

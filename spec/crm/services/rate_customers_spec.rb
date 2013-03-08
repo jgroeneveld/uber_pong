@@ -7,7 +7,7 @@ describe CRM::RateCustomers do
     c.rating.should == 0
 
     c.payments << CRM::Payment.new(amount: 100)
-    o = CRM::RateCustomers.run!(customer: c)
+    o = CRM::RateCustomers.run!(customers: [c])
 
     c.rating.should == 1
   end

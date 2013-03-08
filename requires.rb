@@ -4,7 +4,7 @@ require 'contractual'
 require 'mutations'
 
 module Mutations
-  class DynamicFilter < InputFilter
+  class ObjectFilter < InputFilter
     @default_options = {
     }
 
@@ -15,8 +15,8 @@ module Mutations
   end
 
   class HashFilter < InputFilter
-    def dynamic(name, options = {})
-      @current_inputs[name.to_sym] = DynamicFilter.new(options)
+    def object(name, options = {})
+      @current_inputs[name.to_sym] = ObjectFilter.new(options)
     end
   end
 end

@@ -1,7 +1,7 @@
 module TicketSystem
   class FindUnreadTicketsForUser < Mutations::Command
     required do
-      dynamic :tickets_repo
+      object :tickets_repo
       integer :user_id
     end
 

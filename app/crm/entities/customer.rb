@@ -4,16 +4,37 @@ module CRM
     attr_accessor :address
     attr_accessor :rating
     attr_accessor :payments
+    attr_accessor :contacts
 
     def initialize(args={})
-      self.name = args[:name]
+      @name = args[:name]
 
-      self.rating = 0
-      self.payments = []
+      @rating = 0
+      @payments = []
+      @contacts = []
     end
 
     def total_payed
-      self.payments.map(&:amount).inject(0) { |a,b| a+b }
+      @payments.map(&:amount).inject(0) { |a,b| a+b }
+    end
+
+    def technical_contact
+      find_contact_by_role(:technical)
+    end
+
+    def sales_contact
+      find_contact_by_role(:sales)
+    end
+
+
+
+    private
+
+    def find_contact_by_role(role)
+      @contacts.each { |c|
+        return c  if c.role == role
+      }
+      nil
     end
   end
 end

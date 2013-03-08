@@ -39,4 +39,16 @@ it "should have a total_payed amount" do
     subject.payments << CRM::Payment.new(amount: 100)
     subject.payments.count.should == 1
   end
+
+  it "should have a technical contact" do
+    contact = CRM::Person.new(role: 'technical', first_name: 'hans', last_name: 'peter')
+    subject.contacts << contact
+    subject.technical_contact.should == contact
+  end
+
+  it "should have a sales contact" do
+    contact = CRM::Person.new(role: 'sales', first_name: 'hans', last_name: 'peter')
+    subject.contacts << contact
+    subject.sales_contact.should == contact
+  end
 end
