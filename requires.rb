@@ -6,17 +6,9 @@ require 'mutations'
 module Mutations
   class DynamicFilter < InputFilter
     @default_options = {
-      nils: false       # true allows an explicit nil to be valid. Overrides any other options
     }
 
     def filter(data)
-
-      # Handle nil case
-      if data.nil?
-        return [nil, nil] if options[:nils]
-        return [nil, :nils]
-      end
-
       # We win, it's valid!
       [data, nil]
     end

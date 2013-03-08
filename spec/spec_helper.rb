@@ -1,4 +1,4 @@
-require_relative '../requires'
-
 require 'simplecov'
 SimpleCov.start
+
+require_relative '../requires'
