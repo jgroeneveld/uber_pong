@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'crm/entities/customer'
 require 'crm/entities/person'
 require 'billing/entities/bill'

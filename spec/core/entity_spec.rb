@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'core/entity'
 
 describe Core::Entity do

@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'ticket_system/services/mark_ticket_read'
 require 'ticket_system/entities/ticket'
 

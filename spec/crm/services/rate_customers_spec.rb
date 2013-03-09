@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'crm/services/rate_customers'
 
 describe CRM::RateCustomers do

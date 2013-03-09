@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'ticket_system/services/find_unread_tickets_for_user'
 
 describe TicketSystem::FindUnreadTicketsForUser do

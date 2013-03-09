@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'crm/entities/address'
 
 describe CRM::Address do

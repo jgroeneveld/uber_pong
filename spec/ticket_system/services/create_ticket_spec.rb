@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'ticket_system/services/create_ticket'
 
 

@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'billing/entities/bill'
 
 describe Billing::Bill do

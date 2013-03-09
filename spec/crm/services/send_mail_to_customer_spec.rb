@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'crm/services/send_mail_to_customer'
 require 'crm/entities/person'
 require 'crm/entities/customer'
