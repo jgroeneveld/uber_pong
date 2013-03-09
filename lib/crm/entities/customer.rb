@@ -12,7 +12,7 @@ module CRM
     def initialize(args={})
       super
 
-      @rating = CRM::CustomerRating::Unrated
+      @rating = CustomerRating::Unrated
       @contacts = []
       @bills = []
     end

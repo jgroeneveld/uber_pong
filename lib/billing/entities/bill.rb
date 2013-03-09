@@ -20,7 +20,7 @@ module Billing
     end
 
     def add_item(args={})
-      self.items << Billing::BillItem.new(args)
+      self.items << BillItem.new(args)
     end
 
     def mark_payed!
