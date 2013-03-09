@@ -31,6 +31,12 @@ describe CRM::Customer do
     subject.sales_contact.should == contact
   end
 
+  it "should throw an error if the contact for a role cant be found" do
+    expect {
+      subject.contact_for_role(:something)
+    }.to raise_error
+  end
+
 
 
   context "billing" do

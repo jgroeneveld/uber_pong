@@ -21,6 +21,7 @@ describe CRM::SendMailToCustomer do
   it "should send a mail to the sales contact" do
     sales = CRM::Person.new(role: :sales, email: 'sales@test.de')
     customer = CRM::Customer.new
+
     customer.contacts << sales
 
     mailer = double('mailer')
@@ -31,5 +32,18 @@ describe CRM::SendMailToCustomer do
       role: :sales,
       mailer: mailer
     })
+  end
+
+  it "should throw an error if there is not contact with the given role" do
+    customer = CRM::Customer.new
+    mailer = double('mailer')
+
+    expect {
+      CRM::SendMailToCustomer.run!({
+        customer: customer,
+        role: :sales,
+        mailer: mailer
+      })
+    }.to raise_error
   end
 end

@@ -29,7 +29,7 @@ describe CRM::Person do
     end
 
     it "should have a defined set of possible roles" do
-      expect { subject.role = :no_possible_role_without_doubt }.to raise_error
+      expect { subject.role = :no_possible_role_without_doubt }.to raise_error CRM::Person::UnknownRole
 
       subject.role = CRM::Person::ROLES.first
       subject.role.should == CRM::Person::ROLES.first

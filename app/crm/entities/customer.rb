@@ -26,18 +26,18 @@ module CRM
     end
 
     def technical_contact
-      contact_by_role(:technical)
+      contact_for_role(:technical)
     end
 
     def sales_contact
-      contact_by_role(:sales)
+      contact_for_role(:sales)
     end
 
-    def contact_by_role(role)
+    def contact_for_role(role)
       @contacts.each { |c|
         return c  if c.role == role
       }
-      nil
+      raise "No Role #{role} defined"
     end
   end
 end
