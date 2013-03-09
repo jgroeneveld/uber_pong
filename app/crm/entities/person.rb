@@ -1,3 +1,5 @@
+require_relative '../../core/entity'
+
 module CRM
   class Person < Core::Entity
     ROLES = [ :technical, :sales ]

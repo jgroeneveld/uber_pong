@@ -1,4 +1,4 @@
-require_relative '../../spec_helper'
+require_relative '../../../app/crm/entities/address'
 
 describe CRM::Address do
   it "creates" do

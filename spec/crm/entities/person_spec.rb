@@ -1,4 +1,4 @@
-require_relative '../../spec_helper'
+require_relative '../../../app/crm/entities/person'
 
 describe CRM::Person do
 

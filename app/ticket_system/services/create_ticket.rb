@@ -1,3 +1,7 @@
+require_relative '../../mutations'
+
+require_relative '../entities/ticket'
+
 module TicketSystem
   class CreateTicket < Mutations::Command
     required do

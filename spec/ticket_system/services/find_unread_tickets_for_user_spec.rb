@@ -1,4 +1,4 @@
-require_relative '../../spec_helper'
+require_relative '../../../app/ticket_system/services/find_unread_tickets_for_user'
 
 describe TicketSystem::FindUnreadTicketsForUser do
   it "finds unread tickets for a user" do

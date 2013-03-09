@@ -1,3 +1,5 @@
+require_relative '../../mutations'
+
 module TicketSystem
   class MarkTicketRead < Mutations::Command
     required do

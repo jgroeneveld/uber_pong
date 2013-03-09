@@ -1,32 +1,39 @@
+require_relative '../../core/entity'
+require_relative 'customer_rating'
+
 module CRM
   class Customer < Core::Entity
     attr_accessor :name
     attr_accessor :address
     attr_accessor :rating
-    attr_accessor :payments
     attr_accessor :contacts
+    attr_accessor :bills
 
     def initialize(args={})
       super
 
-      @rating = 0
-      @payments = []
+      @rating = CRM::CustomerRating::Unrated
       @contacts = []
+      @bills = []
+    end
+
+    def amount_due
+      self.bills.select{ |b| !b.payed? }.map(&:total).inject(0,&:+)
     end
 
     def total_payed
-      @payments.map(&:amount).inject(0) { |a,b| a+b }
+      self.bills.select{ |b| b.payed? }.map(&:total).inject(0,&:+)
     end
 
     def technical_contact
-      find_contact_by_role(:technical)
+      contact_by_role(:technical)
     end
 
     def sales_contact
-      find_contact_by_role(:sales)
+      contact_by_role(:sales)
     end
 
-    def find_contact_by_role(role)
+    def contact_by_role(role)
       @contacts.each { |c|
         return c  if c.role == role
       }

@@ -1,3 +1,6 @@
+require_relative '../../mutations'
+require_relative '../entities/customer'
+
 module CRM
   class RateCustomers < Mutations::Command
     required do

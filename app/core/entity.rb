@@ -1,13 +1,16 @@
 module Core
   class Entity
+    class UndefinedSetter < Exception; end
+
     def initialize(args={})
       args.each { |k,v|
         if self.respond_to?("#{k}=")
           self.send("#{k}=", v)
         else
-          self.instance_variable_set "@#{k}".to_sym, v
+          raise UndefinedSetter
         end
       }
     end
+
   end
 end

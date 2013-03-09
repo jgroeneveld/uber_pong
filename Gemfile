@@ -5,3 +5,8 @@ gem 'contractual'
 
 gem 'rspec'
 gem 'simplecov'
+
+# guard
+gem 'guard'
+gem 'guard-rspec'
+gem 'rb-fsevent'

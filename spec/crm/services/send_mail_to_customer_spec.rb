@@ -1,4 +1,6 @@
-require_relative '../../spec_helper'
+require_relative '../../../app/crm/services/send_mail_to_customer'
+require_relative '../../../app/crm/entities/person'
+require_relative '../../../app/crm/entities/customer'
 
 describe CRM::SendMailToCustomer do
   it "should send a mail to the technical contact" do
@@ -9,7 +11,11 @@ describe CRM::SendMailToCustomer do
     mailer = double('mailer')
     mailer.should_receive(:send_mail).with(technical.email)
 
-    CRM::SendMailToCustomer.run!(customer: customer, role: :technical, mailer: mailer)
+    CRM::SendMailToCustomer.run!({
+      customer: customer,
+      role: :technical,
+      mailer: mailer
+    })
   end
 
   it "should send a mail to the sales contact" do
@@ -20,6 +26,10 @@ describe CRM::SendMailToCustomer do
     mailer = double('mailer')
     mailer.should_receive(:send_mail).with(sales.email)
 
-    CRM::SendMailToCustomer.run!(customer: customer, role: :sales, mailer: mailer)
+    CRM::SendMailToCustomer.run!({
+      customer: customer,
+      role: :sales,
+      mailer: mailer
+    })
   end
 end

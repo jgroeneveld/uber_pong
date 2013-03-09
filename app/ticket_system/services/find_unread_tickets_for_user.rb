@@ -1,3 +1,5 @@
+require_relative '../../mutations'
+
 module TicketSystem
   class FindUnreadTicketsForUser < Mutations::Command
     required do

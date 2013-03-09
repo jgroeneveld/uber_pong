@@ -1,4 +1,6 @@
-require_relative '../../spec_helper'
+require_relative '../../../app/ticket_system/services/mark_ticket_read'
+
+require_relative '../../../app/ticket_system/entities/ticket'
 
 describe TicketSystem::MarkTicketRead do
   it "should mark a ticket read" do
