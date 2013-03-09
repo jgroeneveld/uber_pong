@@ -1,5 +1,5 @@
-require_relative '../../mutations_enhanced'
-require_relative '../entities/customer'
+require 'mutations_enhanced'
+require 'crm/entities/customer'
 
 module CRM
   class RateCustomers < Mutations::Command

@@ -1,5 +1,5 @@
-require_relative '../../core/entity'
-require_relative 'customer_rating'
+require 'core/entity'
+require 'crm/entities/customer_rating'
 
 module CRM
   class Customer < Core::Entity

@@ -1,4 +1,4 @@
-require_relative '../../core/entity'
+require 'core/entity'
 
 module CRM
   class Person < Core::Entity

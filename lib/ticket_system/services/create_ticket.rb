@@ -1,6 +1,5 @@
-require_relative '../../mutations_enhanced'
-
-require_relative '../entities/ticket'
+require 'mutations_enhanced'
+require 'ticket_system/entities/ticket'
 
 module TicketSystem
   class CreateTicket < Mutations::Command

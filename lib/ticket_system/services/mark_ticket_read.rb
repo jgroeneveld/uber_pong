@@ -1,4 +1,4 @@
-require_relative '../../mutations_enhanced'
+require 'mutations_enhanced'
 
 module TicketSystem
   class MarkTicketRead < Mutations::Command

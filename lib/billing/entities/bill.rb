@@ -1,5 +1,5 @@
-require_relative '../../core/entity'
-require_relative 'bill_item'
+require 'core/entity'
+require 'billing/entities/bill_item'
 
 module Billing
   class Bill < Core::Entity

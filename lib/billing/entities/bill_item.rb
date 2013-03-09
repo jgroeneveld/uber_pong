@@ -1,4 +1,4 @@
-require_relative 'bill'
+require 'billing/entities/bill'
 
 module Billing
   class BillItem < Core::Entity

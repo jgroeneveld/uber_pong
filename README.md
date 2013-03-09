@@ -1,29 +1,13 @@
 # UberPong
 
-TODO: Write a gem description
+Die Idee ist, ein komplexes System wie Pong
+in ein Gem zu verpacken und so von der Rails Kopplung
+zu trennen.
 
-## Installation
 
-Add this line to your application's Gemfile:
+Aktuelle Probleme
+  - Persistenz Schnittstelle zu AR oder DM
 
-    gem 'uber_pong'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install uber_pong
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Ziele
+  - 100% Code Coverage
+  - 100% TDD
