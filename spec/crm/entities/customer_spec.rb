@@ -1,6 +1,6 @@
-require_relative '../../../app/crm/entities/customer'
-require_relative '../../../app/crm/entities/person'
-require_relative '../../../app/billing/entities/bill'
+require 'crm/entities/customer'
+require 'crm/entities/person'
+require 'billing/entities/bill'
 
 
 describe CRM::Customer do

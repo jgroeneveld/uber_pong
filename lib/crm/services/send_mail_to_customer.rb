@@ -1,4 +1,4 @@
-require_relative '../../mutations'
+require_relative '../../mutations_enhanced'
 
 module CRM
   class SendMailToCustomer < Mutations::Command

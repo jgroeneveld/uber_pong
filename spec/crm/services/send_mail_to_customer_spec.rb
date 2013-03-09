@@ -1,6 +1,6 @@
-require_relative '../../../app/crm/services/send_mail_to_customer'
-require_relative '../../../app/crm/entities/person'
-require_relative '../../../app/crm/entities/customer'
+require 'crm/services/send_mail_to_customer'
+require 'crm/entities/person'
+require 'crm/entities/customer'
 
 describe CRM::SendMailToCustomer do
   it "should send a mail to the technical contact" do

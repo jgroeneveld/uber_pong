@@ -1,4 +1,4 @@
-require_relative '../../../app/ticket_system/services/create_ticket'
+require 'ticket_system/services/create_ticket'
 
 
 describe TicketSystem::CreateTicket do

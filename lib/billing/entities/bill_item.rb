@@ -1,3 +1,5 @@
+require_relative 'bill'
+
 module Billing
   class BillItem < Core::Entity
     attr_accessor :title, :amount, :price

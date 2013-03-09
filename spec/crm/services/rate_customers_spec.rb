@@ -1,4 +1,4 @@
-require_relative '../../../app/crm/services/rate_customers'
+require 'crm/services/rate_customers'
 
 describe CRM::RateCustomers do
   it "should initially be unrated" do

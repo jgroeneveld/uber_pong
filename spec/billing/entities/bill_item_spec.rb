@@ -1,4 +1,4 @@
-require_relative '../../spec_helper'
+require 'billing/entities/bill_item'
 
 describe Billing::BillItem do
   subject { Billing::BillItem.new }

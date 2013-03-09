@@ -1,4 +1,4 @@
-require_relative '../../../app/billing/entities/bill'
+require 'billing/entities/bill'
 
 describe Billing::Bill do
   subject { Billing::Bill.new }

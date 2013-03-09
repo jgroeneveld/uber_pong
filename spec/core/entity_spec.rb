@@ -1,4 +1,4 @@
-require_relative '../../app/core/entity'
+require 'core/entity'
 
 describe Core::Entity do
   class TestEntity < Core::Entity

@@ -1,4 +1,4 @@
-require_relative '../../../app/crm/entities/address'
+require 'crm/entities/address'
 
 describe CRM::Address do
   it "creates" do
