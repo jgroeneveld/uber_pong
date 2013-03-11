@@ -3,48 +3,52 @@ require 'crm/services/send_mail_to_customer'
 require 'crm/entities/person'
 require 'crm/entities/customer'
 
-describe CRM::SendMailToCustomer do
-  it "should send a mail to the technical contact" do
-    technical = CRM::Person.new(role: :technical, email: 'technical@test.de')
-    customer = CRM::Customer.new
-    customer.contacts << technical
+module CRM
 
-    mailer = double('mailer')
-    mailer.should_receive(:send_mail).with(technical.email)
+  describe SendMailToCustomer do
+    it "should send a mail to the technical contact" do
+      technical = Person.new(role: :technical, email: 'technical@test.de')
+      customer = Customer.new
+      customer.contacts << technical
 
-    CRM::SendMailToCustomer.run!({
-      customer: customer,
-      role: :technical,
-      mailer: mailer
-    })
-  end
+      mailer = double('mailer')
+      mailer.should_receive(:send_mail).with(technical.email)
 
-  it "should send a mail to the sales contact" do
-    sales = CRM::Person.new(role: :sales, email: 'sales@test.de')
-    customer = CRM::Customer.new
+      SendMailToCustomer.run!({
+        customer: customer,
+        role: :technical,
+        mailer: mailer
+      })
+    end
 
-    customer.contacts << sales
+    it "should send a mail to the sales contact" do
+      sales = Person.new(role: :sales, email: 'sales@test.de')
+      customer = Customer.new
 
-    mailer = double('mailer')
-    mailer.should_receive(:send_mail).with(sales.email)
+      customer.contacts << sales
 
-    CRM::SendMailToCustomer.run!({
-      customer: customer,
-      role: :sales,
-      mailer: mailer
-    })
-  end
+      mailer = double('mailer')
+      mailer.should_receive(:send_mail).with(sales.email)
 
-  it "should throw an error if there is not contact with the given role" do
-    customer = CRM::Customer.new
-    mailer = double('mailer')
-
-    expect {
-      CRM::SendMailToCustomer.run!({
+      SendMailToCustomer.run!({
         customer: customer,
         role: :sales,
         mailer: mailer
       })
-    }.to raise_error
+    end
+
+    it "should throw an error if there is not contact with the given role" do
+      customer = Customer.new
+      mailer = double('mailer')
+
+      expect {
+        SendMailToCustomer.run!({
+          customer: customer,
+          role: :sales,
+          mailer: mailer
+        })
+      }.to raise_error
+    end
   end
+
 end

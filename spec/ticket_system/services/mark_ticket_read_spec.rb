@@ -2,13 +2,17 @@ require 'spec_helper'
 require 'ticket_system/services/mark_ticket_read'
 require 'ticket_system/entities/ticket'
 
-describe TicketSystem::MarkTicketRead do
-  it "should mark a ticket read" do
-    t = TicketSystem::Ticket.new
-    t.is_read = false
+module TicketSystem
 
-    TicketSystem::MarkTicketRead.run! ticket: t
+  describe MarkTicketRead do
+    it "should mark a ticket read" do
+      t = Ticket.new
+      t.is_read = false
 
-    t.is_read.should eq true
+      MarkTicketRead.run! ticket: t
+
+      t.is_read.should eq true
+    end
   end
+
 end
