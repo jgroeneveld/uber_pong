@@ -1,6 +1,3 @@
-require 'core/entity'
-require 'crm/entities/customer_rating'
-
 module CRM
   class Customer < Core::Entity
     attr_accessor :name

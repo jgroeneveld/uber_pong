@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'crm/entities/person'
 
 module CRM
 

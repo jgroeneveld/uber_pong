@@ -12,3 +12,16 @@ if ENV["COVERAGE"]
     add_group 'Ticket System', 'lib/ticket_system'
   end
 end
+
+
+require 'data_mapper'
+# DataMapper.setup(:default, 'abstract::')
+# DataMapper.setup(:default, 'sqlite::memory:')
+DataMapper.setup(:default, "sqlite://#{Dir.pwd}/db/test.sqlite")
+
+DataMapper::Model.raise_on_save_failure = true
+
+Dir['./lib/**/*.rb'].each { |f| require f }
+
+DataMapper.finalize
+DataMapper.auto_migrate!
