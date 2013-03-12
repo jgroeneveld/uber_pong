@@ -1,19 +1,12 @@
-require 'core/entity'
 require 'billing/entities/bill_item'
 
 module Billing
-  class Bill < Core::Entity
-    attr_reader :items
+  class Bill
+    include Virtus
+    attribute :items, Array[BillItem]
+    attribute :payed, Boolean, default: false
 
-    attr_accessor :payed
     alias :payed? :payed
-
-    def initialize(args={})
-      @items = []
-      @payed = false
-
-      super
-    end
 
     def total
       self.items.map(&:sub_total).inject(0,&:+)

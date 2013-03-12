@@ -1,8 +1,10 @@
 module TicketSystem
   class Ticket
-    attr_accessor :title
-    attr_accessor :description
-    attr_accessor :is_read
-    attr_accessor :assigned_user_id
+    include Virtus
+
+    attribute :title, String
+    attribute :description, String
+    attribute :is_read, Boolean, default: false
+    attribute :assigned_user_id, Integer
   end
 end

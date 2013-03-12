@@ -1,17 +1,21 @@
+require 'crm/entities/address'
+require 'crm/entities/person'
+require 'crm/entities/customer_rating'
+require 'billing/entities/bill'
+
 module CRM
-  class Customer < Core::Entity
-    attr_accessor :name
-    attr_accessor :address
-    attr_accessor :rating
-    attr_accessor :contacts
-    attr_accessor :bills
+  class Customer
+    include Virtus
+
+    attribute :name, String
+    attribute :address, Address
+    attribute :rating, Object
+    attribute :contacts, Array[Person]
+    attribute :bills, Array[Billing::Bill]
 
     def initialize(args={})
       super
-
       @rating = CustomerRating::Unrated
-      @contacts = []
-      @bills = []
     end
 
     def amount_due

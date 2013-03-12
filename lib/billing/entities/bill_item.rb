@@ -1,8 +1,9 @@
-require 'billing/entities/bill'
-
 module Billing
-  class BillItem < Core::Entity
-    attr_accessor :title, :amount, :price
+  class BillItem
+    include Virtus
+    attribute :title, String
+    attribute :amount, Integer
+    attribute :price, Float
 
     def sub_total
       self.amount.to_f * self.price.to_f

@@ -10,12 +10,10 @@ module CRM
     end
 
     it "should rate a customer" do
-      c = Customer.new
-      c.stub(:total_payed).and_return(100)
+      c = double('Customer', {total_payed: 100})
 
-      o = RateCustomers.run!(customers: [c])
-
-      c.rating.should == 1
+      c.should_receive(:rating=).with(1)
+      RateCustomers.run!(customers: [c])
     end
   end
 

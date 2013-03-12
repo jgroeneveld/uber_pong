@@ -4,7 +4,7 @@ require 'crm/entities/customer'
 module CRM
   class RateCustomers < Mutations::Command
     required do
-      array :customers, class: CRM::Customer
+      array :customers, class: Object
     end
 
     def execute

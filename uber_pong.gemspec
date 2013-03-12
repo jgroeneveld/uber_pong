@@ -26,6 +26,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "mutations"
 
-  spec.add_dependency "datamapper"
-  spec.add_dependency "dm-sqlite-adapter"
+  spec.add_dependency "virtus"
 end

@@ -30,12 +30,6 @@ module Core
         m.a_string = 1234
         m.a_string.should == '1234'
       end
-
-      it "should have serial" do
-        MyEntity.property(:id, Serial)
-        m = MyEntity.new
-        m.should respond_to :id
-      end
     end
 
 

@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'crm/entities/customer'
 
 module CRM
 
@@ -16,6 +17,10 @@ module CRM
 
     it "should have an address field" do
       subject.should respond_to :address
+    end
+
+    it "should have no contacts initially" do
+      subject.contacts.should == []
     end
 
     it "should have a technical contact" do

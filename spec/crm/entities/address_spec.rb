@@ -1,4 +1,4 @@
-# require 'spec_helper'
+require 'spec_helper'
 require 'crm/entities/address'
 
 module CRM
@@ -8,6 +8,11 @@ module CRM
       a = Address.new(street: "Haraldstr 12", zip: '12345')
       a.street.should == "Haraldstr 12"
       a.zip.should == '12345'
+    end
+
+    it "should have a string zip" do
+      a = Address.new(street: "Haraldstr 12", zip: 12345)
+      a.zip.should == "12345"
     end
   end
 
