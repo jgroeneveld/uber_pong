@@ -1,7 +1,7 @@
 module CRM
 
   class Address
-    include Virtus
+    include Virtus::ValueObject
     # include DataMapper::Resource
 
     # property :id, Serial
