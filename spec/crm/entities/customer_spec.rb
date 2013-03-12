@@ -19,6 +19,8 @@ module CRM
       subject.should respond_to :address
     end
 
+
+
     it "should have no contacts initially" do
       subject.contacts.should == []
     end
