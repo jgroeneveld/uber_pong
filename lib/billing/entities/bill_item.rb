@@ -1,8 +1,8 @@
 module Billing
   class BillItem
-    include Virtus
+    include Virtus::ValueObject
     attribute :title, String
-    attribute :amount, Integer
+    attribute :amount, Float
     attribute :price, Float
 
     def sub_total
