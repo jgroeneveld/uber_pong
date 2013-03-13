@@ -3,7 +3,7 @@ require 'billing/entities/bill_item'
 module Billing
   class Bill
     include Virtus
-    attribute :items, Array[BillItem]
+    attribute :items, Array[BillItem], default: []
     attribute :payed, Boolean, default: false
 
     alias :payed? :payed

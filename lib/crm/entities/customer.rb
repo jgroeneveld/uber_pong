@@ -10,8 +10,8 @@ module CRM
     attribute :name, String
     attribute :address, Address
     attribute :rating, Object
-    attribute :contacts, Array[Person]
-    attribute :bills, Array[Billing::Bill]
+    attribute :contacts, Array[Person], default: []
+    attribute :bills, Array[Billing::Bill], default: []
 
     def initialize(args={})
       super

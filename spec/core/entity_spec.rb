@@ -24,12 +24,12 @@ module Core
         m.foo.should == 'ein test string'
       end
 
-      xit "should enforce the string type" do
-        MyEntity.property(:a_string, String)
+      it "should store the properties in the attributes hash" do
         m = MyEntity.new
-        m.a_string = 1234
-        m.a_string.should == '1234'
+        m.foo = 'ein test string'
+        m.attributes.fetch(:foo).should == m.foo
       end
+
     end
 
 
