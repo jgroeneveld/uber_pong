@@ -34,6 +34,12 @@ describe Virtus do
       v = NormalVirtus.new foo: o
       v.foo.should == o
     end
+
+    it "shpuld not be equal based on attributes" do
+      a = NormalVirtus.new foo: 'hans'
+      b = NormalVirtus.new foo: 'hans'
+      a.should_not == b
+    end
   end
 
   context "ValueVirtus" do
@@ -50,6 +56,12 @@ describe Virtus do
       o = Object.new
       v = ValueVirtus.new foo: o
       v.foo.should == o
+    end
+
+    it "should be equal based on attributes" do
+      a = ValueVirtus.new foo: 'hans'
+      b = ValueVirtus.new foo: 'hans'
+      a.should == b
     end
   end
 
