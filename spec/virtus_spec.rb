@@ -35,7 +35,7 @@ describe Virtus do
       v.foo.should == o
     end
 
-    it "shpuld not be equal based on attributes" do
+    it "should not be equal based on attributes" do
       a = NormalVirtus.new foo: 'hans'
       b = NormalVirtus.new foo: 'hans'
       a.should_not == b
