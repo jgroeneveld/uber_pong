@@ -31,10 +31,6 @@ module CRM
         subject.contact_for_role(:something)
       }.to raise_error
     end
-
-
-
-
   end
 
 end
