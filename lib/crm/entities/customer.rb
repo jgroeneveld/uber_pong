@@ -18,14 +18,6 @@ module CRM
       @rating = CustomerRating::Unrated
     end
 
-    def amount_due
-      self.bills.select{ |b| !b.payed? }.map(&:total).inject(0,&:+)
-    end
-
-    def total_payed
-      self.bills.select{ |b| b.payed? }.map(&:total).inject(0,&:+)
-    end
-
     def technical_contact
       contact_for_role(:technical)
     end

@@ -1,4 +1,4 @@
-.module TicketSystem
+module TicketSystem
   class Ticket
     include Virtus
 

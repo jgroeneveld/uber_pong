@@ -1,0 +1,1492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"CallDa",
+				"CallDataRecordImport"
+			],
+			[
+				"remo",
+				"removed_files"
+			],
+			[
+				"selber",
+				"selber_anbieten"
+			],
+			[
+				"strip",
+				"striplac-intro"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"helv",
+				"HelveticaNeueW01-55Roma"
+			],
+			[
+				"networ",
+				"networkConnection"
+			],
+			[
+				"stri",
+				"striplac-benefits"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"clea",
+				"cleaning_up"
+			],
+			[
+				"instance_",
+				"instance_startup_configuraton"
+			],
+			[
+				"create",
+				"create_instance"
+			],
+			[
+				"insta",
+				"instance_startup_configuraton"
+			],
+			[
+				"product",
+				"product_group_template"
+			],
+			[
+				"sign",
+				"signup_form"
+			],
+			[
+				"free",
+				"freeCourseID"
+			],
+			[
+				"proce",
+				"processDataForFormStatus"
+			],
+			[
+				"process",
+				"processDataFn"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"no",
+				"noticeRow"
+			],
+			[
+				"cn",
+				"chunk"
+			],
+			[
+				"be",
+				"toBe"
+			],
+			[
+				"Se",
+				"SEGMENT_COUNTDOWN_NUMBERS	Array<String>"
+			],
+			[
+				"co",
+				"countdown1"
+			],
+			[
+				"strateg",
+				"strategy	var"
+			],
+			[
+				"Play",
+				"PlayingFieldEvent"
+			],
+			[
+				"getS",
+				"segmentsLeft(getSegmentsLeft,null)	var"
+			],
+			[
+				"ba",
+				"backOut( t : Float )	Float"
+			],
+			[
+				"targe",
+				"targetY	var"
+			],
+			[
+				"totalt",
+				"totalTicksImproved	Float"
+			],
+			[
+				"ti",
+				"ticksImproved	var"
+			],
+			[
+				"play",
+				"Playround"
+			],
+			[
+				"se",
+				"secondsI	var"
+			],
+			[
+				"audio",
+				"audioOff"
+			],
+			[
+				"Tog",
+				"ToggleButtonState"
+			],
+			[
+				"segmentDa",
+				"segmentDatum"
+			],
+			[
+				"enti",
+				"entitiesToAdd	var"
+			],
+			[
+				"studo",
+				"studyPopOver	var"
+			],
+			[
+				"remve",
+				"remove(...)	com.haxepunk.Entity"
+			],
+			[
+				"playa",
+				"playAgainTargetX	var"
+			],
+			[
+				"showS",
+				"showStudyPopOver"
+			],
+			[
+				"anima",
+				"animatePlayAgainIn"
+			],
+			[
+				"rec",
+				"recordValue"
+			],
+			[
+				"dele",
+				"deleteButtons"
+			],
+			[
+				"ls",
+				"levelslider"
+			],
+			[
+				"levels",
+				"levelslider"
+			],
+			[
+				"cl",
+				"console"
+			],
+			[
+				"e",
+				"eOpts"
+			],
+			[
+				"ex",
+				"Ext"
+			],
+			[
+				"te",
+				"theButton"
+			],
+			[
+				"serte",
+				"server_template_id"
+			],
+			[
+				"bam_",
+				"bam_info"
+			],
+			[
+				"server",
+				"server_templates"
+			],
+			[
+				"server_templa",
+				"server_template_id"
+			],
+			[
+				"bam_info",
+				"bam_info_id"
+			],
+			[
+				"text",
+				"Text	class"
+			],
+			[
+				"alpha",
+				"alphaStep	var"
+			],
+			[
+				"Pay",
+				"PlayingFieldEvent"
+			],
+			[
+				"fini",
+				"finishScreen	var"
+			],
+			[
+				"li",
+				"Lib	class"
+			],
+			[
+				"En",
+				"ENTER	Int"
+			],
+			[
+				"plag",
+				"playAgainTargetX	var"
+			],
+			[
+				"shw",
+				"showStudyLink	var"
+			],
+			[
+				"rati",
+				"ratingStrategy"
+			],
+			[
+				"Segm",
+				"SegmentRatingStrategy"
+			],
+			[
+				"server_",
+				"SERVER_URL	String"
+			],
+			[
+				"ifo",
+				"infoData"
+			],
+			[
+				"image",
+				"image_data"
+			],
+			[
+				"bam",
+				"bam-image-deco"
+			],
+			[
+				"Grap",
+				"Graphic	class"
+			],
+			[
+				"playround",
+				"PlayroundEvaluation"
+			],
+			[
+				"plar",
+				"PlayroundEvaluation	class"
+			],
+			[
+				"pla",
+				"playerName"
+			],
+			[
+				"netw",
+				"NetworkConnection	class"
+			],
+			[
+				"jgroene",
+				"jgroeneveld	package"
+			],
+			[
+				"jgr",
+				"jgroeneveld"
+			],
+			[
+				"perform",
+				"performances	var"
+			],
+			[
+				"performa",
+				"performanceData	var"
+			],
+			[
+				"seg",
+				"segmentName"
+			],
+			[
+				"segm",
+				"segmentPlays	Int"
+			],
+			[
+				"perfor",
+				"performanceMemory	var"
+			],
+			[
+				"MOBIL",
+				"MOBILMACHER_VSERVER"
+			],
+			[
+				"modi",
+				"modify_sent"
+			],
+			[
+				"mod",
+				"modify_sent"
+			],
+			[
+				"name_server",
+				"name_server_active_response"
+			],
+			[
+				"invald",
+				"invalid_nameserver"
+			],
+			[
+				"inval",
+				"invalid_nameserver"
+			],
+			[
+				"spri",
+				"StaticSprite	class"
+			],
+			[
+				"val",
+				"valueText	var"
+			],
+			[
+				"tit",
+				"titleText	var"
+			],
+			[
+				"vaue",
+				"valueText	var"
+			],
+			[
+				"gra",
+				"graphics	package"
+			],
+			[
+				"eva",
+				"Evaluator	class"
+			],
+			[
+				"Netwo",
+				"NetworkConnection"
+			],
+			[
+				"network",
+				"networkConnection	var"
+			],
+			[
+				"perf",
+				"performanceMemory"
+			],
+			[
+				"tv",
+				"tvdb_id"
+			],
+			[
+				"s",
+				"sineOut( t : Float )	Float"
+			],
+			[
+				"bac",
+				"backOut( t : Float )	Float"
+			],
+			[
+				"coll",
+				"collisionTypes"
+			],
+			[
+				"segme",
+				"segmentBuilder	var"
+			],
+			[
+				"onnet",
+				"onNetworkGameStart"
+			],
+			[
+				"netW",
+				"networkStatus	var"
+			],
+			[
+				"NetWork",
+				"NetworkConnection"
+			],
+			[
+				"EventM",
+				"EventManager"
+			],
+			[
+				"true",
+				"true_tz"
+			],
+			[
+				"trans",
+				"rrdFloatTranslation"
+			],
+			[
+				"resl",
+				"resolution"
+			],
+			[
+				"refresh",
+				"refreshTable"
+			],
+			[
+				"indi",
+				"indicesRound	var"
+			],
+			[
+				"indic",
+				"indices	var"
+			],
+			[
+				"ra",
+				"rating"
+			],
+			[
+				"segment",
+				"segmentBuilderStrategies	package"
+			],
+			[
+				"gr",
+				"jGroeneveld"
+			],
+			[
+				"Pla",
+				"PlayerPerformance	class"
+			],
+			[
+				"new",
+				"newPlayerPerformance"
+			],
+			[
+				"fire",
+				"firePlayingFieldEvent	function"
+			],
+			[
+				"m",
+				"Manager"
+			],
+			[
+				"flextab_he",
+				"flextab_helper_update_global_page_controls"
+			],
+			[
+				"owner",
+				"owner_id"
+			],
+			[
+				"customer",
+				"customers_without_contracts"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"absolu",
+				"absolute_time"
+			],
+			[
+				"campus",
+				"campus_path"
+			],
+			[
+				"spor",
+				"sports_without_courses_path"
+			],
+			[
+				"sor",
+				"sports_without_courses"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ta",
+				"Snippet: Tabular"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 122.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/lib/crm/services/send_mail_to_customer.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/crm/services/send_mail_to_customer_spec.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/fabricators/person_fabricator.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/uber_pong.gemspec",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/fabricators/customer_fabricator.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/lib/crm/entities/customer.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/fabricators/address_fabricator.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/lib/crm/entities/person.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/crm/services/rate_customers_spec.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/lib/crm/entities/address.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/spec_helper.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/factories.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/lib/crm/services/rate_customers.rb",
+		"/Users/jaap/Documents/Programmieren/ruby/uber_pong/spec/crm/entities/customer_spec.rb",
+		"/Users/jaap/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Bibliography.bib",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Arbeit.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/02_grundlagen.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/classicthesis-ldpkg.sty",
+		"/Users/jaap/.irbrc",
+		"/Users/jaap/.gemrc",
+		"/Users/jaap/Library/Application Support/Sublime Text 2/Packages/User/LaTeX.sublime-settings",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/_Chapter02.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/macro notizen.txt",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/CHANGES",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/99_anhang.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/03_methode.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/todo.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Arbeit.tdo",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/Titlepage.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/Abstract.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/01_einleitung.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/05_schlussfolgerung.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/06_ausblick.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/Contents.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/Bibliography.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/ContentLists.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/04_diskussion.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/Titleback.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/04_auswertung.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/03_entwurf.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/A_vortest_ergebnisse.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/FrontBackmatter/Declaration.tex",
+		"/Users/jaap/.jshintrc",
+		"/Users/jaap/Documents/Programmieren/titanium/custom_jshint_config",
+		"/Users/jaap/Documents/Programmieren/titanium/FunTestApp/custom_jshint_config",
+		"/Users/jaap/Documents/Programmieren/titanium/FunTestApp/.jshintrc",
+		"/Users/jaap/Documents/Programmieren/titanium/FunTestApp/custom_jshint",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/A_segmente.tex",
+		"/Users/jaap/Documents/Uni/diplom/kmeans/dipl.csv",
+		"/Users/jaap/Documents/Uni/diplom/repo/ergebnisse/clustering/ergebnisse.txt",
+		"/Users/jaap/Documents/Uni/diplom/repo/ergebnisse/clustering/clustering.r",
+		"/Users/jaap/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/_Chapter01.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/04_implementierung.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Arbeit.sublime-project",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/05_leistungsbewertung.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/Chapters/06_schlussfolgerung.tex",
+		"/Users/jaap/Documents/Uni/diplom/repo/Arbeit/main.tex",
+		"/Users/jaap/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/Plutex/pong/.git/config",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/responsive/width-0-767.css",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/lang/de-de.json",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/lang/en-uk.json",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/script/jquery.elastic.source.js",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/script/main.js",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/base.css",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/index.php",
+		"/Volumes/Plutex/pong/app/models/customer.rb",
+		"/Volumes/Plutex/pong/app/models/purchase.rb",
+		"/Volumes/Plutex/pong/app/helpers/flextab_helper.rb",
+		"/Volumes/Plutex/pong/app/models/note.rb",
+		"/Volumes/Plutex/pong/lib/domain_manager.rb",
+		"/Volumes/Plutex/pong/app/helpers/bills_helper.rb",
+		"/Volumes/Plutex/pong/app/models/call_data_record.rb",
+		"/Volumes/Plutex/pong/config/environments/development.rb",
+		"/Volumes/Plutex/pong/lib/ftp_syncer.rb",
+		"/Volumes/Plutex/pong/lib/tasks/update_call_data_records.rake",
+		"/Volumes/Plutex/ext_sources/outbox/2013-01-22.csv",
+		"/Volumes/Plutex/ext_sources/outbox/2013-01-18.csv",
+		"/Volumes/Plutex/ext_sources/outbox/2012-11-10.csv",
+		"/Volumes/Plutex/pong/db/migrate/20130129124217_create_call_data_record_imports.rb",
+		"/Volumes/Plutex/pong/app/views/bam_infos/edit.html.erb",
+		"/Volumes/Plutex/pong/config/locales/de.yml",
+		"/Volumes/Plutex/pong/app/views/bam_infos/_form.html.erb",
+		"/Volumes/Plutex/pong/app/controllers/bam_infos_controller.rb",
+		"/Volumes/Plutex/pong/lib/mail_fetcher.rb",
+		"/Volumes/Plutex/pong/lib/mail_handler.rb",
+		"/Volumes/Plutex/pong/app/controllers/call_data_records_controller.rb",
+		"/Volumes/Plutex/pong/app/models/key_value_pair.rb",
+		"/Volumes/Plutex/pong/app/models/product.rb",
+		"/Users/jaap/Desktop/ftp.rb",
+		"/Users/jaap/Desktop/voicedaten/ftp.rb",
+		"/Volumes/Plutex/pong/app/views/bam_categories/index.html.erb",
+		"/Volumes/Plutex/pong/app/models/bam_info.rb",
+		"/Volumes/Plutex/pong/app/views/bam_infos/_bam_info_screenshot_fields.html.erb",
+		"/Volumes/Plutex/pong/config/routes.rb",
+		"/Volumes/Plutex/pong/app/controllers/public_controller.rb",
+		"/Volumes/Plutex/pong/app/models/bam_info_screenshot.rb",
+		"/Volumes/Plutex/pong/db/migrate/20130122153604_create_bam_info_screenshots.rb",
+		"/Volumes/Plutex/pong/app/helpers/xml_access_helper.rb",
+		"/Volumes/Plutex/pong/.gitignore",
+		"/Volumes/Plutex/pong/app/views/scripts/_parameter_fields.html.erb",
+		"/Volumes/Plutex/pong/app/views/scripts/_form.html.erb",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/plugin/contact-form/template/default.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/include/class/Template.class.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/plugin/contact-form/contact-form.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/script/script.js",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/include/phpMailer/language/phpmailer.lang-cz.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/php/mail_functions.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/sendmail.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/plugin/contact-form/config.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/include/functions.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/royalslider/royalslider.css",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/script/alessandro.js",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/responsive/width-480-969.css",
+		"/Users/jaap/Desktop/LOG_statisch/filtered.log",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/1205 NuernbergErlangen/fau_sport_node/index.js",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/1205 NuernbergErlangen/fau_sport_node/lib/handler.js",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/1205 NuernbergErlangen/fau_sport_node/spec/buchung_gesperrt.html",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/config/de-de.json",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/php/localize.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/php/config.php",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/deploy_jgroeneveld.ssh",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/index.html",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/responsive/width-480-767.css",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/responsive/width-768-969.css",
+		"/Users/jaap/Documents/Projekte/Mobilmacher/20130117 striplac_landing/repo/www/style/responsive/width-0-479.css"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Volumes/Plutex/pong/db/migrate",
+			"db",
+			"-*/bin/*",
+			"-*/Export/*",
+			"-*/build/*",
+			"-*/Export/*",
+			"-*/bin/*",
+			"-*/debug/*",
+			"-*/bin/*",
+			"-*/build/*",
+			"-bin",
+			"",
+			"-*/build/*",
+			"-*/sdk/*",
+			"-*/build/*",
+			"-*build*",
+			"",
+			"/Users/jaap/Documents/Projekte/Plutex/pong-dev/app/views/call_data_records",
+			"",
+			"/Users/jaap/Documents/Projekte/Plutex/pong-dev/db",
+			"./db/migrate/*",
+			"./db/migrate",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"close",
+			"tab",
+			"cauthor",
+			"@",
+			"dueck:trio",
+			"cite",
+			"quote",
+			"tableheadline",
+			"listing",
+			"thelstlisting",
+			"lstlisting",
+			"listing",
+			"isting",
+			"newpage",
+			"longpage",
+			"Variationskoeffizient",
+			"bibname",
+			"Schlussfolgerung",
+			"Auswertung",
+			"myFaculty",
+			"myDepartment",
+			"myDegree",
+			"homage",
+			"Ziele",
+			"Aufbau",
+			"Entwurf",
+			"doch bitte",
+			"todo",
+			"glossar",
+			"UML",
+			"DRY",
+			"acro",
+			"8",
+			"textwidth",
+			"\\textwidth",
+			"includegraphics",
+			"7",
+			"am ende",
+			" c",
+			" a",
+			"a ",
+			" C",
+			" B",
+			" A",
+			"s7",
+			"a",
+			"A",
+			"a",
+			"A",
+			"a",
+			"A",
+			"Cluster\")",
+			"barplot",
+			" <- data.frame",
+			"fits",
+			"fits3",
+			",",
+			"s4c",
+			"\ns",
+			"\n",
+			",s",
+			" ",
+			"\n",
+			" ",
+			".",
+			",s",
+			"\\% \\\\",
+			"\\%",
+			" & ",
+			"\\%  \\\\",
+			"\\% \\\\",
+			" \\\\",
+			"subsubsection",
+			"Korrelation",
+			"\\\\",
+			"item",
+			"\\emph{",
+			"&  &",
+			"datenmenge",
+			"paragraph",
+			"vortest_spieldaten",
+			"\\\"",
+			"fig:seg",
+			"fig:sec",
+			"fig:seg_s9b",
+			"s",
+			"\\\\",
+			" &",
+			"& & ",
+			" &",
+			"& & ",
+			"& & & ",
+			"& & ",
+			"longpage",
+			"png",
+			"s11b",
+			"table",
+			"width=2",
+			"width",
+			"figure",
+			"width=2\\",
+			"bth",
+			"\\end{figure}",
+			"width=2\\linewidth",
+			"\\begin{figure}[bth]",
+			"figure",
+			".png",
+			"figure",
+			"Autem timeam deleniti usu id",
+			"Sp.",
+			" p.",
+			"p. ",
+			"p.",
+			"table",
+			"tabl",
+			"colophon",
+			"%!TEX root = ../ClassicThesis.tex",
+			"}\n",
+			"buildMenuRow",
+			"informationMenuRowLabel",
+			"buildMenuRow",
+			"businessHours",
+			"tableview",
+			"new ui.InformationDataTableView",
+			"introCourses",
+			"Array",
+			"lang_file",
+			"translations"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%!TEX root = ../Arbeit.tex",
+			"/course_registration_status",
+			"GET /register_for_course",
+			"GET /course_registration_status",
+			"",
+			"de.jgroeneveld.shared.eval.Evaluator",
+			"EventManager.instance.fireEvent(this, ",
+			"../gfx/tileset.png"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 244.0
+	},
+	"output.haxe":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gemsp",
+				"uber_pong.gemspec"
+			],
+			[
+				"pers",
+				"lib/crm/entities/person.rb"
+			],
+			[
+				"custfa",
+				"spec/fabricators/customer_fabricator.rb"
+			],
+			[
+				"customer.rb",
+				"lib/crm/entities/customer.rb"
+			],
+			[
+				"custo",
+				"spec/crm/services/rate_customers_spec.rb"
+			],
+			[
+				"adre",
+				"lib/crm/entities/address.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"sendm",
+				"spec/crm/services/send_mail_to_customer_spec.rb"
+			],
+			[
+				"ratecu",
+				"spec/crm/services/rate_customers_spec.rb"
+			],
+			[
+				"speche",
+				"spec/spec_helper.rb"
+			],
+			[
+				"cust",
+				"lib/crm/entities/customer.rb"
+			],
+			[
+				"gems",
+				"uber_pong.gemspec"
+			],
+			[
+				"person",
+				"lib/crm/entities/person.rb"
+			],
+			[
+				"customer",
+				"spec/crm/services/rate_customers_spec.rb"
+			],
+			[
+				"gemspe",
+				"uber_pong.gemspec"
+			],
+			[
+				"sendma",
+				"lib/crm/services/send_mail_to_customer.rb"
+			],
+			[
+				"customerspe",
+				"spec/crm/services/rate_customers_spec.rb"
+			],
+			[
+				"",
+				"Chapters/02_grundlagen.tex"
+			],
+			[
+				"arbe",
+				"Arbeit.tex"
+			],
+			[
+				"grund",
+				"Chapters/02_grundlagen.tex"
+			],
+			[
+				"not",
+				"macro notizen.txt"
+			],
+			[
+				"bib",
+				"Bibliography.bib"
+			],
+			[
+				"arbeit",
+				"Arbeit.tex"
+			],
+			[
+				"no",
+				"macro notizen.txt"
+			],
+			[
+				"arbeit.",
+				"Arbeit.tex"
+			],
+			[
+				"frontpa",
+				"FrontBackmatter/Titlepage.tex"
+			],
+			[
+				"bib.tex",
+				"FrontBackmatter/Bibliography.tex"
+			],
+			[
+				"page",
+				"FrontBackmatter/Titlepage.tex"
+			],
+			[
+				"arbei",
+				"Arbeit.tex"
+			],
+			[
+				"05",
+				"Chapters/05_schlussfolgerung.tex"
+			],
+			[
+				"04_",
+				"Chapters/04_auswertung.tex"
+			],
+			[
+				"chap",
+				"Chapters/_Chapter02.tex"
+			],
+			[
+				"metho",
+				"Chapters/03_methode.tex"
+			],
+			[
+				"decl",
+				"FrontBackmatter/Declaration.tex"
+			],
+			[
+				"a_vo",
+				"Chapters/A_vortest_ergebnisse.tex"
+			],
+			[
+				"frontcon",
+				"FrontBackmatter/Contents.tex"
+			],
+			[
+				"aseg",
+				"Chapters/A_segmente.tex"
+			],
+			[
+				"avorte",
+				"Chapters/A_vortest_ergebnisse.tex"
+			],
+			[
+				"03w",
+				"Chapters/03_entwurf.tex"
+			],
+			[
+				"segme",
+				"Chapters/A_segmente.tex"
+			],
+			[
+				"proj",
+				"Arbeit.sublime-project"
+			],
+			[
+				"anha",
+				"Chapters/99_anhang.tex"
+			],
+			[
+				"anhan",
+				"Chapters/99_anhang.tex"
+			],
+			[
+				"ei",
+				"Chapters/01_einleitung.tex"
+			],
+			[
+				"vort",
+				"Chapters/A_vortest_ergebnisse.tex"
+			],
+			[
+				"dec",
+				"FrontBackmatter/Declaration.tex"
+			],
+			[
+				"vorte",
+				"Chapters/A_vortest_ergebnisse.tex"
+			],
+			[
+				"03",
+				"Chapters/03_entwurf.tex"
+			],
+			[
+				"infordata",
+				"Resources/app/views/information_data_table_view.js"
+			],
+			[
+				"dejs",
+				"Resources/config/locales/de.js"
+			],
+			[
+				"unifwi",
+				"Resources/app/views/unifit_menu_window.js"
+			],
+			[
+				"base",
+				"style/base.css"
+			],
+			[
+				"func",
+				"php/functions.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"ingra",
+				"app/models/info_graph.rb"
+			],
+			[
+				"dum",
+				"script/dump_cacti_data"
+			],
+			[
+				"dump",
+				"lib/tasks/dump_cacti_rrd.rake"
+			],
+			[
+				"env",
+				"config/environment.rb"
+			],
+			[
+				"infogra",
+				"app/models/info_graph.rb"
+			],
+			[
+				"rrdgra",
+				"app/views/info_graphs/_rrd_graph.html.erb"
+			],
+			[
+				"infograinde",
+				"app/views/info_graphs/index.html.erb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"infograco",
+				"app/controllers/info_graphs_controller.rb"
+			],
+			[
+				"de",
+				"lang/de-de.json"
+			],
+			[
+				"wi",
+				"style/responsive/width-0-767.css"
+			],
+			[
+				"enu",
+				"lang/en-uk.json"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"enuk",
+				"lang/en-uk.json"
+			],
+			[
+				"de-",
+				"lang/de-de.json"
+			],
+			[
+				"alejs",
+				"script/alessandro.js"
+			],
+			[
+				"purchase.rb",
+				"app/models/purchase.rb"
+			],
+			[
+				"calldainde",
+				"app/views/call_data_records/index.html.erb"
+			],
+			[
+				"custom",
+				"app/models/customer.rb"
+			],
+			[
+				"calldaco",
+				"app/controllers/call_data_records_controller.rb"
+			],
+			[
+				"domm",
+				"lib/domain_manager.rb"
+			],
+			[
+				"billshe",
+				"app/helpers/bills_helper.rb"
+			],
+			[
+				"calldata",
+				"app/models/call_data_record.rb"
+			],
+			[
+				"callda",
+				"app/models/call_data_record.rb"
+			],
+			[
+				"createdata",
+				"db/migrate/20130129124217_create_call_data_record_imports.rb"
+			],
+			[
+				"calldatare",
+				"app/models/call_data_record.rb"
+			],
+			[
+				"note",
+				"app/models/note.rb"
+			],
+			[
+				"flexhe",
+				"app/helpers/flextab_helper.rb"
+			],
+			[
+				"envdeve",
+				"config/environments/development.rb"
+			],
+			[
+				"ftps",
+				"lib/ftp_syncer.rb"
+			],
+			[
+				"product",
+				"app/models/product.rb"
+			],
+			[
+				"keyval",
+				"app/models/key_value_pair.rb"
+			],
+			[
+				"calldarecontr",
+				"app/controllers/call_data_records_controller.rb"
+			],
+			[
+				"calldare",
+				"app/models/call_data_record.rb"
+			],
+			[
+				"mailhandl",
+				"lib/mail_handler.rb"
+			],
+			[
+				"mailfet",
+				"lib/mail_fetcher.rb"
+			],
+			[
+				"flehelper",
+				"app/helpers/flextab_helper.rb"
+			],
+			[
+				"bamco",
+				"app/controllers/bam_infos_controller.rb"
+			],
+			[
+				"bamindex",
+				"app/views/bam_categories/index.html.erb"
+			],
+			[
+				"baminfedit",
+				"app/views/bam_infos/edit.html.erb"
+			],
+			[
+				"baminfoform",
+				"app/views/bam_infos/_form.html.erb"
+			],
+			[
+				"deyml",
+				"config/locales/de.yml"
+			],
+			[
+				"xmlac",
+				"app/helpers/xml_access_helper.rb"
+			],
+			[
+				"createbaminfosc",
+				"db/migrate/20130122153604_create_bam_info_screenshots.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"pubco",
+				"app/controllers/public_controller.rb"
+			],
+			[
+				"baminfo",
+				"app/models/bam_info.rb"
+			],
+			[
+				"parameterfields",
+				"app/views/scripts/_parameter_fields.html.erb"
+			],
+			[
+				"bam_",
+				"app/models/bam_info.rb"
+			],
+			[
+				"createbamscre",
+				"db/migrate/20130122153604_create_bam_info_screenshots.rb"
+			],
+			[
+				"bainfoscree",
+				"app/models/bam_info_screenshot.rb"
+			],
+			[
+				"publicco",
+				"app/controllers/public_controller.rb"
+			],
+			[
+				"config",
+				"plugin/contact-form/config.php"
+			],
+			[
+				"dede",
+				"lang/de-de.json"
+			],
+			[
+				"mailfu",
+				"php/mail_functions.php"
+			],
+			[
+				"contactformphp",
+				"plugin/contact-form/contact-form.php"
+			],
+			[
+				"main",
+				"script/main.js"
+			],
+			[
+				"scrip",
+				"script/script.js"
+			],
+			[
+				"contactf",
+				"plugin/contact-form/contact-form.js"
+			],
+			[
+				"royals",
+				"style/royalslider/royalslider.css"
+			],
+			[
+				"confjs",
+				"config/de-de.json"
+			],
+			[
+				"lang/",
+				"lang/de-de.json"
+			],
+			[
+				"local",
+				"php/localize.php"
+			],
+			[
+				"ale",
+				"script/alessandro.js"
+			],
+			[
+				"basecs",
+				"style/base.css"
+			],
+			[
+				"scri",
+				"script/script.js"
+			],
+			[
+				"appjs",
+				"public/assets/application.js"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"baminfocard",
+				"app/views/bam_infos/_card.html.erb"
+			],
+			[
+				"bamincss",
+				"app/assets/stylesheets/bam_infos.css.less"
+			],
+			[
+				"baminfoshow",
+				"app/views/bam_infos/show.html.erb"
+			],
+			[
+				"bamico",
+				"app/controllers/bam_infos_controller.rb"
+			],
+			[
+				"baminfoc",
+				"app/controllers/bam_infos_controller.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jaap/Documents/Ti Workspace/alloytest/alloytest.sublime-project"
+			],
+			[
+				"k",
+				"/Volumes/Plutex/kong.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true
+}

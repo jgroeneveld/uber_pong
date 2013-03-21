@@ -1,3 +1,5 @@
+require 'crm/entities/customer'
+
 Fabricator :customer, class_name: "CRM::Customer" do
   name 'Hans GmbH'
   rating 1
