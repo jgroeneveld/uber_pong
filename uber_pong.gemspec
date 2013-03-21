@@ -24,6 +24,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "pry"
 
+  # http://www.fabricationgem.org/
+  # wie factory_girl aber keine orm abhaengigkeit
+  spec.add_development_dependency "fabrication"
+
   spec.add_dependency "mutations"
 
   spec.add_dependency "virtus"

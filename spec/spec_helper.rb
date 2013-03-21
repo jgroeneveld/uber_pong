@@ -27,3 +27,5 @@ end
 # DataMapper.auto_migrate!
 
 require 'virtus'
+
+require 'fabrication'

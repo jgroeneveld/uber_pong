@@ -6,21 +6,12 @@ module CRM
   describe Customer do
     subject { Customer.new }
 
-    it "should be there" do
-      Customer.new
-    end
+    specify { subject.should respond_to :address }
+    its(:contacts) { should == [] }
 
     it "should have a name" do
       customer = Customer.new(name: 'firma')
       customer.name.should == 'firma'
-    end
-
-    it "should have an address field" do
-      subject.should respond_to :address
-    end
-
-    it "should have no contacts initially" do
-      subject.contacts.should == []
     end
 
     it "should have a technical contact" do
@@ -43,13 +34,10 @@ module CRM
 
 
     context "billing" do
-      it "should have no bills initially" do
-        subject.bills.should be_empty
-      end
-
-      it "should have a amount due of 0 initially" do
-        subject.amount_due.should == 0
-      end
+      its(:bills) { should be_empty }
+      its(:amount_due) { should == 0 }
+      its(:total_payed) { should == 0 }
+      its(:rating) { should_not be_nil }
 
       it "should calculate amount due correctly" do
         b1 = Billing::Bill.new
@@ -61,14 +49,6 @@ module CRM
         subject.bills << b2
 
         subject.amount_due.should == b1.total + b2.total
-      end
-
-      it "should have a rating" do
-        subject.rating.should_not be_nil
-      end
-
-      it "should have a initial total_payed amount of 0" do
-        subject.total_payed.should == 0
       end
 
       it "should have a total_payed amount" do
