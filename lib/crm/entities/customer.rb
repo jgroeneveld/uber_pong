@@ -5,6 +5,8 @@ require 'billing/entities/bill'
 
 module CRM
   class Customer
+    class RoleNotFound < Exception; end
+
     include Virtus
 
     attribute :name, String
@@ -14,7 +16,7 @@ module CRM
 
     def initialize(args={})
       super
-      @rating = CustomerRating::Unrated
+      self.rating = CustomerRating::Unrated
     end
 
     def technical_contact
@@ -26,10 +28,10 @@ module CRM
     end
 
     def contact_for_role(role)
-      @contacts.each { |c|
+      self.contacts.each { |c|
         return c  if c.role == role
       }
-      raise "No Role #{role} defined"
+      raise RoleNotFound
     end
   end
 end

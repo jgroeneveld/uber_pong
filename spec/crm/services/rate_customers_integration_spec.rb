@@ -4,7 +4,7 @@ require 'crm/services/rate_customers'
 module CRM
 
   describe "RateCustomers Integration" do
-    it "should rate a customer" do
+    xit "should rate a customer" do
       c = Fabricate(:customer)
 
       RateCustomers.run!(customers: [c])

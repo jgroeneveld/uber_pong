@@ -5,20 +5,48 @@ in ein Gem zu verpacken und so von der Rails Kopplung
 zu trennen.
 
 
-Ziele
+# Ziele
 
   - Oberste Ebene der Anwendung sollte komunizieren was sie kann
     Bspw. Module unter lib: billing/crm/ticket_system => offensichtlich
   - Niedrige Kopplung der Module untereinander durch Dependency Injection wo sinnvoll
   - Allgemein Best Practices
     - Single Responsibility Principle
+    - Tell dont Ask
     - Auf Boundaries achten
-  - 100% Code Coverage
-  - 100% TDD
+  - Code Coverage im Auge behalten
+  - TDD
   - Tests sollten auf jedenfall ohne Rails laufen
 
 
-Offene Fragen
+# Offene Fragen
 
   - Persistenz Schnittstelle zu AR oder DM
     Wie genau an Rails bzw. beliebige Persistenzebene anbinden?
+
+
+
+# Gelernt
+
+## Integrations-Tests
+
+Outer Boundaries (Services) sollten Unit getestet werden zur Funktionalitätssicherung und Designkontrolle, __aber auf jedenfall auch Integration__. Da Bspw. Services am ehesten Mocks benutzen, muss sichergestellt werden das auf echter Datenbasis alles funktioniert. Schnittstellen sind sonst nicht sichergestellt.
+
+    it "should rate a customer" do
+      c = double('Customer', {total_payed: 100})
+
+      c.should_receive(:rating=).with(1)
+      RateCustomers.run!(customers: [c])
+    end
+
+Dieser Test läuft wunderbar durch obwohl Customer keine total_payed Methode mehr hatte. => Integration Testen.
+Erübrigt sich vermutlich stark dadurch das für jeden *echten* Usecase einen Service gibt, der ausführlich getestet werden muss.
+
+## expect{}.to raise_error
+
+Grundsätzlich eigene Fehlerklassen definieren. Sonst kann es schnell passieren
+das man den Falschen (nicht erwarteten, zb. NoMethod) Fehler fängt.
+
+    expect {
+      customer.contact_for_role(:something)
+    }.to raise_error(Customer::RoleNotFound)
