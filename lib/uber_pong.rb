@@ -1,5 +1,11 @@
 require "uber_pong/version"
 
+require 'core/queued_mailer'
+
 module UberPong
-  # Your code goes here...
+
+  def self.mailer
+    @mailer || @mailer = Core::QueuedMailer.new
+  end
+
 end
