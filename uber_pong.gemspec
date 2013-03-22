@@ -29,6 +29,8 @@ Gem::Specification.new do |spec|
   # wie factory_girl aber keine orm abhaengigkeit
   spec.add_development_dependency "fabrication"
 
+  spec.add_development_dependency "cucumber"
+
   spec.add_dependency "mutations"
 
   spec.add_dependency "virtus"

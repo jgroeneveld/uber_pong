@@ -7,7 +7,6 @@ module CRM
   class Customer
     include Virtus
 
-    attribute :id
     attribute :name, String
     attribute :address, Address
     attribute :rating, Object
