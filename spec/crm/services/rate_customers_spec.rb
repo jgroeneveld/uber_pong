@@ -6,7 +6,7 @@ module CRM
   describe RateCustomers do
     it "should initially be unrated" do
       c = Customer.new
-      c.rating.should == CustomerRating::Unrated
+      c.rating.should == CustomerRating::UNRATED
     end
 
     it "should rate a customer" do

@@ -1,7 +1,7 @@
+require 'crm/errors'
+
 module CRM
   class Person
-    class UnknownRole < Exception; end
-
     include Virtus
 
     ROLES = [ :technical, :sales ]
@@ -13,7 +13,7 @@ module CRM
 
     def role=(r)
       r = r.to_sym
-      raise UnknownRole  unless ROLES.include?(r)
+      raise RoleNotFound  unless ROLES.include?(r)
       @role = r
     end
   end

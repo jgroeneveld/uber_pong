@@ -30,7 +30,7 @@ module CRM
     it "should throw an error if the contact for a role cant be found" do
       expect {
         subject.contact_for_role(:something)
-      }.to raise_error(Customer::RoleNotFound)
+      }.to raise_error(RoleNotFound)
     end
 
     it "should not care about the type of the role" do

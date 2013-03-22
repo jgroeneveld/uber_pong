@@ -32,7 +32,9 @@ module CRM
       end
 
       it "should have a defined set of possible roles" do
-        expect { subject.role = :no_possible_role_without_doubt }.to raise_error Person::UnknownRole
+        expect {
+          subject.role = :no_possible_role_without_doubt
+        }.to raise_error RoleNotFound
 
         subject.role = Person::ROLES.first
         subject.role.should == Person::ROLES.first

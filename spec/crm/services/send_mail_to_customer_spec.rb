@@ -42,7 +42,7 @@ module CRM
           role: :sales,
           mailer: mailer
         })
-      }.to raise_error
+      }.to raise_error RoleNotFound
     end
   end
 

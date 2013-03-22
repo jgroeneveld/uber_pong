@@ -32,4 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "mutations"
 
   spec.add_dependency "virtus"
+
+  spec.add_dependency "perpetuity"
+
 end

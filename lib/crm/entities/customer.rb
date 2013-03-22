@@ -1,11 +1,10 @@
 require 'crm/entities/address'
 require 'crm/entities/person'
 require 'crm/entities/customer_rating'
+require 'crm/errors'
 
 module CRM
   class Customer
-    class RoleNotFound < Exception; end
-
     include Virtus
 
     attribute :name, String
@@ -14,8 +13,8 @@ module CRM
     attribute :contacts, Array[Person], default: []
 
     def initialize(args={})
+      self.rating = CustomerRating::UNRATED
       super
-      self.rating = CustomerRating::Unrated
     end
 
     def technical_contact

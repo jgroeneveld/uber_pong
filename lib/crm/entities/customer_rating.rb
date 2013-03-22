@@ -1,5 +1,5 @@
 module CRM
   class CustomerRating
-    class Unrated; end
+    UNRATED = "Unrated"
   end
 end
