@@ -1,7 +1,6 @@
 require 'crm/entities/address'
 require 'crm/entities/person'
 require 'crm/entities/customer_rating'
-require 'billing/entities/bill'
 
 module CRM
   class Customer
@@ -29,7 +28,7 @@ module CRM
 
     def contact_for_role(role)
       self.contacts.each { |c|
-        return c  if c.role == role
+        return c  if c.role == role.to_sym
       }
       raise RoleNotFound
     end

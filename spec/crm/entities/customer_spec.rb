@@ -16,6 +16,7 @@ module CRM
 
     it "should have a technical contact" do
       contact = Person.new(role: 'technical', first_name: 'hans', last_name: 'peter')
+
       subject.contacts << contact
       subject.technical_contact.should == contact
     end
@@ -30,6 +31,11 @@ module CRM
       expect {
         subject.contact_for_role(:something)
       }.to raise_error(Customer::RoleNotFound)
+    end
+
+    it "should not care about the type of the role" do
+      customer = Fabricate(:customer_with_technical_contact)
+      customer.contact_for_role("technical").should_not be_nil
     end
   end
 
