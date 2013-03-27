@@ -1,8 +1,5 @@
 require 'spec_helper'
-require 'support/perpetuity'
-
 require 'crm/entities/customer'
-
 require 'crm/repos/customers_repo'
 
 module CRM

@@ -1,3 +1,5 @@
+require 'virtus'
+
 module TicketSystem
   class Ticket
     include Virtus

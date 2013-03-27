@@ -1,3 +1,5 @@
+require 'virtus'
+
 module Billing
   class BillItem
     include Virtus::ValueObject

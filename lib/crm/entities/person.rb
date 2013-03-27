@@ -1,3 +1,4 @@
+require 'virtus'
 require 'crm/errors'
 
 module CRM

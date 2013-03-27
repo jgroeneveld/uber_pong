@@ -1,0 +1,43 @@
+require 'test_helper'
+require 'billing/entities/bill'
+
+module Billing
+
+  describe Bill do
+    subject { Bill.new }
+
+    it "should initially be unpayed" do
+      subject.payed?.must_equal false
+    end
+
+    it "should have initially 0 bill items" do
+      subject.items.length.must_equal 0
+    end
+
+    it "should contain bill items" do
+      subject.add_item title: 'brot', amount: 2, price: 3
+      subject.items.length.must_equal 1
+    end
+
+    it "should reflect the total by the bill items" do
+      subject.total.must_equal 0.0
+    end
+
+    it "should reflect the total amount by the bill items" do
+      subject.add_item title: 'brot', amount: 2, price: 3
+      subject.total.must_equal 6
+    end
+
+    it "should reflect the total amount by the bill items with more items" do
+      subject.add_item title: 'brot', amount: 2, price: 3
+      subject.add_item title: 'brot', amount: 1, price: 7
+      subject.total.must_equal 13
+    end
+
+    it "should be payable" do
+      subject.mark_payed!
+      subject.payed?.must_equal true
+    end
+  end
+
+end

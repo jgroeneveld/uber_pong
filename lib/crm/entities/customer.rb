@@ -1,3 +1,4 @@
+require 'virtus'
 require 'crm/entities/address'
 require 'crm/entities/person'
 require 'crm/entities/customer_rating'

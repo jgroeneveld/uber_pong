@@ -1,3 +1,5 @@
+require 'virtus'
+
 class BillingReport
   include Virtus::ValueObject
 

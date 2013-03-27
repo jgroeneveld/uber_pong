@@ -1,5 +1,4 @@
 require "uber_pong/version"
-
 require 'core/queued_mailer'
 
 module UberPong

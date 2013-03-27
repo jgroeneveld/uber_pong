@@ -1,3 +1,5 @@
+require 'minitest/autorun'
+
 if ENV["COVERAGE"]
   require 'simplecov'
   SimpleCov.start do
@@ -16,7 +18,7 @@ end
 
 require 'fabrication'
 
-require 'support/perpetuity'
+# require 'support/perpetuity'
 
 # Dir["lib/**/*.rb"].each { |f|
 #   p f
