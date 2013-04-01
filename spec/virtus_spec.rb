@@ -21,7 +21,7 @@ describe Virtus do
     end
 
     it "should have a default" do
-      NormalVirtus.new.foo.should == 'bar asd asdasd asd a'
+      NormalVirtus.new.foo.should == 'bar'
     end
 
     it "should coerce number to string" do

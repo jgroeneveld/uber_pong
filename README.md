@@ -1,8 +1,6 @@
 # UberPong
 
-Die Idee ist, ein komplexes System wie Pong
-in ein Gem zu verpacken und so von der Rails Kopplung
-zu trennen.
+Die Idee ist, ein komplexes System wie Pong in ein Gem zu verpacken und so von der Rails Kopplung zu trennen.
 
 
 # Ziele
@@ -26,7 +24,7 @@ zu trennen.
 
 
 
-# Gelernt
+# Erkenntnisse
 
 ## Integrations-Tests
 
@@ -39,14 +37,27 @@ Outer Boundaries (Services) sollten Unit getestet werden zur Funktionalitätssic
       RateCustomers.run!(customers: [c])
     end
 
-Dieser Test läuft wunderbar durch obwohl Customer keine total_payed Methode mehr hatte. => Integration Testen.
-Erübrigt sich vermutlich stark dadurch das für jeden *echten* Usecase einen Service gibt, der ausführlich getestet werden muss.
+Dieser Test läuft wunderbar durch obwohl Customer keine total_payed Methode mehr hatte. => Wichtiger Grund zu für Integrationstests.
+
+### Zusatz
+
+Als zusätzliche Sicherung kann [rspec-fire](https://github.com/xaviershay/rspec-fire) genutzt werden. Dies stellt sicher, dass die gemockte Klasse die aufgerufenen Funktionen auch bereitstellt sofern sie geladen ist.
 
 ## expect{}.to raise_error
 
-Grundsätzlich eigene Fehlerklassen definieren. Sonst kann es schnell passieren
-das man den Falschen (nicht erwarteten, zb. NoMethod) Fehler fängt.
+Grundsätzlich eigene Fehlerklassen definieren. Sonst kann es schnell passieren das man den Falschen (nicht erwarteten, zb. NoMethod) Fehler fängt.
 
     expect {
       customer.contact_for_role(:something)
     }.to raise_error(Customer::RoleNotFound)
+
+## RSpec vs Minitest
+
+- Minitest hat eine spec-syntax, ähnlich der von RSpec. Mir persönlich gefällt _foo.must_equal bar_ besser als _foo.should == bar_ oder _expect(foo).to eq bar_. 
+- Minitest soll angeblich auch deutlich schneller sein als RSpec, allerdings hat sich das inzwischen stark ausgeglichen und der Vorteil ist minimal. 
+- RSpec hat deutlich bessere Community unterstützung und ist aktuell der quasi Standard.
+- Der RSpec Formatter ist deutlich besser als die verfügbaren für Minitest.
+- Angeblicher Vorteil von MiniTest ist, dass es mit Ruby ausgeliefert wird. Dieser verschwindet aber direkt wieder wenn klar wird das man das Gem trotzdem nutzen muss um die vollständigere Version zu nutzen.
+- Es gibt MiniTest::Mock aber keine Stubs und MiniTest::Mock ist nicht annähernd so vollständig wie von RSpec, daher kommt man um ein Mock Gem wie mocha nicht drumherum.
+
+Schlussfolgerung: Minitest ist interessant aufgrund dem minimalen und zusammsteckbaren Ansatz, RSpec ist aber defakto weiter verbreitet und erschöpfender, daher vermutlich im produktiv Ansatz vorerst das Mittel der Wahl.

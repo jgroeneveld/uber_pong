@@ -22,7 +22,7 @@ describe Virtus do
     end
 
     it "should have a default" do
-      NormalVirtus.new.foo.must_equal 'bar asd asdasd sd '
+      NormalVirtus.new.foo.must_equal 'bar'
     end
 
     it "should coerce number to string" do

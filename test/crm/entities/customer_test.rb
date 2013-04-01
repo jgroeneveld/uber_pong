@@ -42,6 +42,8 @@ module CRM
       customer = Fabricate(:customer_with_technical_contact)
       customer.contact_for_role("technical").wont_be_nil
     end
+
+    it "should be pending"
   end
 
 end

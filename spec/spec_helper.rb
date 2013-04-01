@@ -18,6 +18,12 @@ require 'fabrication'
 
 require 'support/perpetuity'
 
+
+require 'rspec/fire'
+RSpec.configure do |config|
+  config.include(RSpec::Fire)
+end
+
 # Dir["lib/**/*.rb"].each { |f|
 #   p f
 #   require f.sub('lib/', '')

@@ -10,7 +10,9 @@ module CRM
     end
 
     it "should rate a customer" do
-      c = double('Customer', {total_payed: 100})
+      # rspec/fire is how we can find boundary problems
+      # this spec should fail because Customer does not have a method total_payed
+      c = fire_double('CRM::Customer', {total_payed: 100})
 
       c.should_receive(:rating=).with(1)
       RateCustomers.run!(customers: [c])

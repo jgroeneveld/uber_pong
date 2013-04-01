@@ -19,21 +19,23 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+
+  # 0.9 nutzen da sonst immer ein stacktrace geprinted wird
+  spec.add_development_dependency "rake", "0.9.2.2"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-fire"
   spec.add_development_dependency "simplecov"
 
-
+  spec.add_development_dependency "minitest-reporters"
+  spec.add_development_dependency "minitest", "~> 4.7.0"
   spec.add_development_dependency "mocha"
-  spec.add_development_dependency "turn"
+
 
   spec.add_development_dependency "pry"
 
   # http://www.fabricationgem.org/
   # wie factory_girl aber keine orm abhaengigkeit
   spec.add_development_dependency "fabrication"
-
-  spec.add_development_dependency "cucumber"
 
   spec.add_dependency "mutations"
 

@@ -1,5 +1,6 @@
 require 'minitest/autorun'
 
+
 if ENV["COVERAGE"]
   require 'simplecov'
   SimpleCov.start do
@@ -24,3 +25,7 @@ require 'fabrication'
 #   p f
 #   require f.sub('lib/', '')
 # }
+
+
+
+require 'support/reporters'
