@@ -29,6 +29,7 @@ Das Projekt ist bis auf die Tests nicht lauffähig, es geht um die Exploration d
 - [Virtus](https://github.com/solnic/virtus) - Bietet Syntax für typisierte Attribute, default Werte etc.
 - [rspec](http://rspec.info/) - Für Tests
 - [rspec-fire](https://github.com/xaviershay/rspec-fire) - Sichereres Mocken, siehe Erkenntnisse
+- [simplecov](https://github.com/colszowka/simplecov) - Code Coverage Übersicht
 - [Perpetuity](https://github.com/jgaskins/perpetuity) - MongoDB Datenbank Gem mit Datamapper Pattern
 - [MiniTest](https://github.com/seattlerb/minitest) - Rubystandard Alternative zu RSpec
 - [MiniTest-Reporters](https://github.com/CapnKernul/minitest-reporters) - Formatter für MiniTest
