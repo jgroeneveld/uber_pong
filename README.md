@@ -1,8 +1,8 @@
 # UberPong
 
-Die Idee ist, ein komplexes System wie Pong in ein Gem zu verpacken und so von der Rails Kopplung zu trennen.
+Die Idee ist, ein komplexes System wie Pong in ein Gem zu verpacken und so von der Rails Kopplung zu trennen. [Talk: Architecture - The lost years](http://confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years)
 
-Das Projekt ansich ist nicht lauffähig, es geht um die Exploration der Entwicklungsmethoden.
+Das Projekt ist bis auf die Tests nicht lauffähig, es geht um die Exploration der Entwicklungsmethoden.
 
 
 # Ziele
