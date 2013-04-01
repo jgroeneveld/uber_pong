@@ -2,6 +2,8 @@
 
 Die Idee ist, ein komplexes System wie Pong in ein Gem zu verpacken und so von der Rails Kopplung zu trennen.
 
+Das Projekt ansich ist nicht lauffähig, es geht um die Exploration der Entwicklungsmethoden.
+
 
 # Ziele
 
