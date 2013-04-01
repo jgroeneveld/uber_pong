@@ -28,6 +28,12 @@ Die Idee ist, ein komplexes System wie Pong in ein Gem zu verpacken und so von d
 - [rspec](http://rspec.info/) - Für Tests
 - [rspec-fire](https://github.com/xaviershay/rspec-fire) - Sichereres Mocken, siehe Erkenntnisse
 - [Perpetuity](https://github.com/jgaskins/perpetuity) - MongoDB Datenbank Gem mit Datamapper Pattern
+- [MiniTest](https://github.com/seattlerb/minitest) - Rubystandard Alternative zu RSpec
+- [MiniTest-Reporters](https://github.com/CapnKernul/minitest-reporters) - Formatter für MiniTest
+- [mocha](https://github.com/freerange/mocha) - Mocking Gem
+- [pry](https://github.com/pry/pry) - Zum Debuggen
+- [fabrication](http://www.fabricationgem.org/) - Factory-Gem. Factory-Girl scheint an Rails gekoppelt zu sein.
+- [Mutations](https://github.com/cypriss/mutations) - Commandsyntax mit requirements und optionalen Elementen. Nicht zwangsweise notwendig aber interessant.
 
 
 
